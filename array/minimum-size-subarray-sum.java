@@ -24,8 +24,10 @@ class Solution {
             sub += sortArr[i];
             if (sub >= target) {
                 return count;
-            } 
-            count++;
+            } else {
+                count++;
+            }
+            
         }
 
         return 0;
