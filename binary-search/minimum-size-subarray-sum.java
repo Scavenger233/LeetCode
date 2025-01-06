@@ -1,35 +1,23 @@
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
-        int[] sortArr = new int[nums.length];
+        // double for loop
+        int result = 0;
+        int subLength = 0;
+        int sum = 0;
 
-        int left = 0;
-        int right = nums.length - 1;
-        int index = nums.length - 1;
+        for (int i = 0; i < nums.length; i++ ){
+            sum = 0;
+            for (int j = i; j < nums.length; j++) {
+                sum += nums[i];
 
-        while(left <= right) {
-            if(nums[left] < nums[right]) {
-                sortArr[index] = nums[right];
-                right--;
-            } else {
-                sortArr[index] = nums[left];
-                left++;
+                if (sum >= target) {
+                    subLength = j - i + 1;
+                    result = result > target ? result : sum;
+                    break;
+                }
             }
-            index--;
         }
 
-        int sub = 0;
-        int count = 1;
-        for(int i = sortArr.length - 1; i >= 0; i--) {
-            
-            sub += sortArr[i];
-            if (sub >= target) {
-                return count;
-            } else {
-                count++;
-            }
-            
-        }
-
-        return 0;
+        return result == 0 ? 0 : subLength;
     }
 }
