@@ -1,7 +1,7 @@
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
         // double for loop
-        int result = 0;
+        int result = Integer.MAX_VALUE;
         int subLength = 0;
         int sum = 0;
 
@@ -12,12 +12,12 @@ class Solution {
 
                 if (sum >= target) {
                     subLength = j - i + 1;
-                    result = result > target ? result : sum;
+                    result = result > subLength ? subLength : result;
                     break;
                 }
             }
         }
 
-        return result == 0 ? 0 : subLength;
+        return result == Integer.MAX_VALUE ? 0 : result;
     }
 }
