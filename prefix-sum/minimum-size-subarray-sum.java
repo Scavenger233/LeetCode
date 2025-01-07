@@ -1,25 +1,27 @@
 class Solution {
+
     public int minSubArrayLen(int target, int[] nums) {
-        // double for loop
-        int result = Integer.MAX_VALUE; //最后返回值，也就是subarray的长度 or 0
-        int subLength = 0;
+        //滑动窗口解体思路
         int sum = 0;
+        int result = Integer.MAX_VALUE; // result取最大边界值
+        int subLength = 0;
+        int i = 0;
 
-        for (int i = 0; i < nums.length; i++ ){
-            sum = 0;
-            for (int j = i; j < nums.length; j++) {
-                sum += nums[j];
+        // for循环遍历数组，j是sub array的右边界在满足sub array之和大于target的前提下找最小的sub array
+        for(int j = 0; j < nums.length; j++) {
 
-                if (sum >= target) {
-                    subLength = j - i + 1;
-                    //如果result小于subLength就更新result
-                    result = result < subLength ? result : subLength;
-                    // 只要满足了subarray的和大于target就跳出loop
-                    break;
-                }
+            sum += nums[j];
+
+            while (sum >= target) {
+
+                subLength = j - i + 1;
+                result = result > subLength ? subLength : result;
+                sum = sum - nums[i];
+                i++;
+
             }
         }
-        // 如果result值没变说明没有符合情况的subarray，返回0；反之则返回新的result值，也就是subarray的长度
+
         return result == Integer.MAX_VALUE ? 0 : result;
     }
 }
