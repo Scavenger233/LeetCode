@@ -4,6 +4,7 @@
 ## binary search
 - Note the handling of boundary values [ , )
 - Q 704 https://leetcode.com/problems/binary-search/description/
+- Q 35 https://leetcode.com/problems/search-insert-position/description/
 
 ## Two pointers
 - we have fast pointer to find eligible value, slow pointer to put the value into a new array
