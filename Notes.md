@@ -3,13 +3,13 @@
 
 ## binary search
 - Note the handling of boundary values [ , )
-- Q 704
+- Q 704 https://leetcode.com/problems/binary-search/description/
 
 ## Two pointers
 - we have fast pointer to find eligible value, slow pointer to put the value into a new array
-- Q 27
+- Q 27 https://leetcode.com/problems/remove-element/description/
 - Q 977 https://leetcode.com/problems/squares-of-a-sorted-array/description/
 
 ## Sliding window
 - To use a for loop with the end of the sub array as the indicator.
-- Q 209
+- Q 209 https://leetcode.com/problems/minimum-size-subarray-sum/description/
