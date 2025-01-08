@@ -8,6 +8,7 @@
 ## Two pointers
 - we have fast pointer to find eligible value, slow pointer to put the value into a new array
 - Q 27
+- Q 977
 
 ## Sliding window
 - To use a for loop with the end of the sub array as the indicator.
