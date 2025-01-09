@@ -3,7 +3,7 @@ class Solution {
         int leftBorder = leftBorder(nums, target);
         int rightBorder = rightBorder(nums, target);
 
-        if (leftBorder == -12 || rightBorder == -2) {
+        if (leftBorder == -2 || rightBorder == -2) {
             return new int[]{-1, -1};
         }
 
