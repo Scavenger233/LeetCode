@@ -12,6 +12,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 - Note the handling of boundary values [ , )
 - Q 704 https://leetcode.com/problems/binary-search/description/
 - Q 35 https://leetcode.com/problems/search-insert-position/description/
+- Q 34 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/ 边界处理不太明白
 
 ## Two pointers
 - we have fast pointer to find eligible value, slow pointer to put the value into a new array
