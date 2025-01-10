@@ -8,6 +8,10 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 # Array
 - Elements of an array are contiguous in memory addresses; you cannot delete an element of an array individually, you can only overwrite it.
 
+
+  - Use a `for` loop to iterate over arrays or when you know the number of iterations.
+  - Use a `while` loop when you need to repeat actions based on certain conditions, and these conditions do not depend on the number of iterations or are better suited for dynamically evaluating the end conditions.
+
 ## binary search
 - Note the handling of boundary values [ , )
 - Q 704 https://leetcode.com/problems/binary-search/description/
