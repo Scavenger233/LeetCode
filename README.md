@@ -22,6 +22,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 - we have fast pointer to find eligible value, slow pointer to put the value into a new array
 - Q 27 https://leetcode.com/problems/remove-element/description/
 - Q 977 https://leetcode.com/problems/squares-of-a-sorted-array/description/
+- Q 26 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
 ## Sliding window
 - To use a for loop with the end of the sub array as the indicator.
