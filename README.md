@@ -14,16 +14,16 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 
 ## binary search
 - Note the handling of boundary values [ , )
-- Q 704 https://leetcode.com/problems/binary-search/description/
-- Q 35 https://leetcode.com/problems/search-insert-position/description/
-- Q 34 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/ 边界处理不太明白
+- Q 704 [binary-search](https://leetcode.com/problems/binary-search/description/)
+- Q 35 [search-insert-position](https://leetcode.com/problems/search-insert-position/description/)
+- Q 34 [find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) 边界处理不太明白
 
 ## Two pointers
 - we have fast pointer to find eligible value, slow pointer to put the value into a new array
-- Q 27 https://leetcode.com/problems/remove-element/description/
-- Q 977 https://leetcode.com/problems/squares-of-a-sorted-array/description/
-- Q 26 https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+- Q 27 [remove-element](https://leetcode.com/problems/remove-element/description/)
+- Q 977 [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)
+- Q 26 [remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 
 ## Sliding window
 - To use a for loop with the end of the sub array as the indicator.
-- Q 209 https://leetcode.com/problems/minimum-size-subarray-sum/description/
+- Q 209 [/minimum-size-subarray-sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
