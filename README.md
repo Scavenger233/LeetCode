@@ -23,6 +23,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 - Q 27 [remove-element](https://leetcode.com/problems/remove-element/description/)
 - Q 977 [squares-of-a-sorted-array](https://leetcode.com/problems/squares-of-a-sorted-array/description/)
 - Q 26 [remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
+- Q 283 [move-zeroes](https://leetcode.com/problems/move-zeroes/description/?envType=study-plan-v2&envId=top-100-liked)
 
 ## Sliding window
 - To use a for loop with the end of the sub array as the indicator.
