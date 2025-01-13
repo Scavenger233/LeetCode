@@ -4,52 +4,51 @@ class Solution {
         int rightBorder = rightBorder(nums, target);
 
         if (leftBorder == -2 || rightBorder == -2) {
-            return new int[] {-1, -1};
+            return new int[]{-1, -1};
         }
 
         if (rightBorder - leftBorder > 1) {
-            return new int[] {leftBorder + 1, rightBorder -1};
+            return new int[] {leftBorder + 1, rightBorder - 1};
         }
 
-        return new int[] {-1, -1};
-
-        
+        return new int[]{-1, -1};
     }
 
-    int leftBorder(int[] nums, int target) { 
-            int left = 0;
-            int right = nums.length - 1;
-            int leftBorder = -2;
+    int leftBorder(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
+        int leftBorder = -2;
 
-            while (left <= right) {
-                int mid = left + (right - left) / 2;
-                if (nums[mid] >= target) { 
-                    right = mid - 1;
-                    leftBorder = right;
-                } else {
-                    left = mid + 1;
-                }
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] >= target) {
+                right = mid - 1;
+                leftBorder = right;
+            } else {
+                left = mid + 1;
             }
-
-            return leftBorder;
         }
 
-        int rightBorder(int[] nums, int target) {
-            int left = 0; 
-            int right = nums.length - 1;
-            int rightBorder = -2;
+        return leftBorder;
+    }
 
-            while (left <= right) {
-                int mid = left + (right - left) / 2;
+    int rightBorder(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
+        int rightBorder = -2;
 
-                if (nums[mid] <= target) {
-                    left = mid + 1;
-                    rightBorder = left;
-                } else {
-                    right = mid - 1;
-                }
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] <= target) {
+                left = mid + 1;
+                rightBorder = left;
+            } else {
+                right = mid - 1;
             }
-
-            return rightBorder;
         }
+
+        return rightBorder;
+    }
+
+
 }
