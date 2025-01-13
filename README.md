@@ -28,3 +28,6 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Sliding window
 - To use a for loop with the end of the sub array as the indicator.
 - Q 209 [/minimum-size-subarray-sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/)
+
+## Spiral Matrix
+- Q 59 [spiral-matrix-ii](https://leetcode.com/problems/spiral-matrix-ii/description/)
