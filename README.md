@@ -44,3 +44,6 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ### Remove elements
 - Q 203 [remove-linked-list-elements](https://leetcode.com/problems/remove-linked-list-elements/description/)
 
+### Two pointers
+- Q 206 [reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/description/)
+
