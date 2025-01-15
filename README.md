@@ -31,3 +31,4 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 
 ## Spiral Matrix
 - Q 59 [spiral-matrix-ii](https://leetcode.com/problems/spiral-matrix-ii/description/)
+- Q 54 [spiral-matrix](https://leetcode.com/problems/spiral-matrix/description/)
