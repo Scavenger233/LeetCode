@@ -10,7 +10,6 @@
  */
 class Solution {
     public ListNode reverseList(ListNode head) {
-        // Two pointers
         ListNode pre = null;
         ListNode cur = head;
 
