@@ -47,3 +47,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ### Two pointers
 - Q 206 [reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/description/)
 
+### Recursion
+- Q 24 [swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
+
+
