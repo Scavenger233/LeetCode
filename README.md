@@ -50,6 +50,8 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ### Recursion
 - Q 24 [swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
 
+
+### Not categorized
 - Q 21 [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked)
 
 
