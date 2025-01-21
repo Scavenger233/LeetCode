@@ -39,7 +39,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 ## Linked List
 - A linked list is a sequence of nodes that contain two fields: data (an integer value here as an example) and a link to the next node. The last node is linked to a terminator used to signify the end of the list.![image](https://github.com/user-attachments/assets/02147483-4ced-40b8-9ae2-85c13994085f)
 - Singly linked list/ Doubly linked list/ Circular linked list
-
+---
 - Q 21 [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked)
 - Q 160 [intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 
