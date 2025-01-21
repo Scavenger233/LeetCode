@@ -10,20 +10,21 @@
  */
 class Solution {
     public ListNode swapPairs(ListNode head) {
+        // Third submission, check where you did wrong
         ListNode dummy = new ListNode();
         dummy.next = head;
         ListNode cur = dummy;
-
+        // cur.next and cur.next.next cannot both be null
         while (cur.next != null && cur.next.next != null) {
-            // temp在此是临时值，负责该位置的node变更时保留原值
-            ListNode temp = cur.next.next.next;
-            // first和second都是负责表示node value
+            // ListNode first = head; 
+            // ListNode second = head.next;
+            // This is wrong bc first & second are gong to move, so we use cur
             ListNode first = cur.next;
             ListNode second = cur.next.next;
+            ListNode temp = cur.next.next.next;
             cur.next = second;
             second.next = first;
             first.next = temp;
-            // cur 在此处是指针，负责移动
             cur = first;
         }
 
