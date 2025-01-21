@@ -26,11 +26,9 @@ class Solution {
 
         if (list1 == null) {
             cur.next = list2;
-            return list2;
         }
         if(list2 == null) {
             cur.next = list1;
-            return list1;
         }
 
         return dummy.next;
