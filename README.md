@@ -4,6 +4,9 @@ This repository contains my solutions to a diverse array of coding challenges. F
 
 Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiiondffkjfhjgdcfjklnmadhfk) extension.
 
+<img width="840" alt="image" src="https://github.com/user-attachments/assets/e1380ad0-d590-4c1c-a106-ace7bb6b93c7" />
+
+
 
 ## Array
 - Elements of an array are contiguous in memory addresses; you cannot delete an element of an array individually, you can only overwrite it.
