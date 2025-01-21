@@ -53,5 +53,6 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 
 ### Not categorized
 - Q 21 [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked)
+- Q 160 [intersection-of-two-linked-lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)
 
 
