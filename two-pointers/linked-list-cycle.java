@@ -17,12 +17,13 @@ public class Solution {
         ListNode slow = head;
 
         while (fast != null && fast.next != null) {
+            // 先移动指针，再进行比较
+            fast = fast.next.next;
+            slow = slow.next;
+            // 移动完再看两个指针是否相等
             if (fast == slow) {
                 return true;
-            } else {
-                fast = fast.next.next;
-                slow = slow.next;
-            }
+            } 
         }
 
         return false;
