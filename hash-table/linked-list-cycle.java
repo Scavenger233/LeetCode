@@ -20,8 +20,8 @@ public class Solution {
             if (fast == slow) {
                 return true;
             } else {
-                fast = fast.next;
-                slow = slow.next.next;
+                fast = fast.next.next;
+                slow = slow.next;
             }
         }
 
