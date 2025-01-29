@@ -10,7 +10,7 @@ class Solution:
         dummy.next = head
         slow, fast = dummy, dummy
 
-        while fast:
+        while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
             if slow == fast:
