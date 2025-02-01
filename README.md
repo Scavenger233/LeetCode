@@ -8,7 +8,7 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 
 
 
-## Array
+## Arrays & Hashing
 - Elements of an array are contiguous in memory addresses; you cannot delete an element of an array individually, you can only overwrite it.
 
 
@@ -16,6 +16,10 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
   - Use a `while` loop when you need to repeat actions based on certain conditions, and these conditions do not depend on the number of iterations or are better suited for dynamically evaluating the end conditions.
  
 ![image](https://github.com/user-attachments/assets/6754a108-3469-4e87-94a4-6c6898c78d65)
+
+- Q 217 [contains-duplicate](https://leetcode.com/problems/contains-duplicate/description/)
+- Q 242 [valid-anagram](https://leetcode.com/problems/valid-anagram/description/)
+- Q 1 [two-sum](https://leetcode.com/problems/two-sum/description/)
 
 
 ### binary search
@@ -55,6 +59,8 @@ Backup by [SyncLeet](https://chromewebstore.google.com/detail/syncleet/maoikpiio
 
 ### Recursion
 - Q 24 [swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)
+
+
 
 
 
