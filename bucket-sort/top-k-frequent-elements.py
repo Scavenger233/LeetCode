@@ -5,7 +5,7 @@ class Solution:
 
         for n in nums:
             count[n] = count.get(n, 0) + 1
-        
+
         for n, c in count.items():
             freq[c].append(n)
         
