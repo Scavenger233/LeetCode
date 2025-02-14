@@ -8,7 +8,7 @@ class Solution:
                 length = 1
                 while n + length in nums:
                     length += 1
-        longest = max(length, longest)
+            longest = max(length, longest)
         
         return longest
         
