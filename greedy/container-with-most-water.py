@@ -11,6 +11,7 @@ class Solution:
             elif height[l] < height[r]:
                 l += 1
             else:
-                r -= 1
+                l += 1
 
+        
         return res
