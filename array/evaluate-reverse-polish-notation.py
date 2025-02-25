@@ -15,5 +15,5 @@ class Solution:
                 stack.append(int(b / a))
             else:
                 stack.append(int(i))
-                
+
         return stack[0]
