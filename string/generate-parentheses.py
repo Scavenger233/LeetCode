@@ -1,7 +1,7 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        stack = []
         res = []
+        stack = []
 
         def backtracking(openN, closedN):
             if openN == closedN == n:
@@ -12,7 +12,7 @@ class Solution:
                 stack.append("(")
                 backtracking(openN + 1, closedN)
                 stack.pop()
-            
+
             if openN > closedN:
                 stack.append(")")
                 backtracking(openN, closedN + 1)
