@@ -4,7 +4,7 @@ class Solution:
         res = nums[0]
         while l <= r:
             if nums[l] <= nums[r]:
-                return nums[l]
+                res = min(res, nums[l])
                 break
             
             m = (l + r) // 2
