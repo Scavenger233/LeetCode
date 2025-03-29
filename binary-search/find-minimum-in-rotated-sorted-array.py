@@ -9,12 +9,12 @@ class Solution:
                 break
 
             m = (l + r) // 2
-            if nums[m] > nums[l]:
+            if nums[m] >= nums[l]:
                 l = m + 1
-            elif nums[m] < nums[r]:
-                r = m - 1
             else:
-                res = min(res, nums[m])
+                r = m - 1
+            
+            res = min(res, nums[m])
             
             
         return res
